@@ -134,7 +134,7 @@ const ImageUploader = () => {
         <div className="flex flex-col items-center mt-4">
           <span className="text-gray-700 mb-2">{pdfFile.name}</span>
           <button
-            className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+            className="px-4 py-2 bg-blue-800 text-white rounded hover:bg-blue-600"
             onClick={processPdf}
           >
             Process PDF
@@ -164,7 +164,7 @@ const ImageUploader = () => {
 
         {/* Continue to Annotate Button */}
         <button
-          className={`w-3/12 mt-20 bg-blue-500 text-white px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-blue-300 ${
+          className={`w-3/12 mt-20 bg-blue-800 text-white px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-blue-300 ${
             !processedImage ? 'bg-gray-400 cursor-not-allowed' : 'hover:bg-blue-600'
           }`}
           onClick={handleNextButtonClick}
